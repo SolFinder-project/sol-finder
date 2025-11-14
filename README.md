@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔮 SolFinder - Reclaim Your Locked SOL
 
-## Getting Started
+**The most efficient way to reclaim locked SOL from unused token accounts on Solana.**
 
-First, run the development server:
+## 🌟 Features
 
+- 🔍 **Smart Scanner** - Automatically detects empty SPL token accounts
+- 🔒 **Safe Closer** - Close accounts and reclaim rent deposits (~0.00204 SOL per account)
+- ⚡ **Lightning Fast** - Powered by Helius RPC for optimal performance
+- 💎 **Token-2022 Support** - Works with both SPL and Token-2022 programs
+- 🎁 **Referral System** - Earn 10% of SOL reclaimed by referred users
+- 📊 **Real-time Stats** - Live leaderboard and personal dashboard
+
+## 🚀 Quick Start
+
+### Installation
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/sol-finder.git
+cd sol-finder
+
+# Install dependencies
+npm install
+
+# Copy environment variables
+cp .env.example .env.local
+
+# Edit .env.local with your keys
+nano .env.local
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a `.env.local` file with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Helius RPC API key
+- Supabase project URL and anon key
+- Your fee recipient wallet address
 
-## Learn More
+## 📊 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. **Connect Wallet** - Use Phantom, Solflare, or any Solana wallet
+2. **Scan Accounts** - We find all your empty SPL token accounts
+3. **Select & Close** - Choose which accounts to close
+4. **Receive SOL** - Instantly reclaim your rent deposits (minus 15% service fee)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 15, React, TypeScript
+- Tailwind CSS
+- Solana Web3.js, SPL Token, Token-2022
+- Supabase (PostgreSQL)
+- Helius RPC
 
-## Deploy on Vercel
+## 🛡️ Security
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Your keys never leave your wallet
+- ✅ All transactions require your explicit approval
+- ✅ Only empty accounts can be closed
+- ✅ Open source and auditable
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚠️ Disclaimer
+
+This tool is provided as-is. Always verify transactions before signing.
+
+**Built with 💜 on Solana**
