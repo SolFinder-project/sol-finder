@@ -281,7 +281,7 @@ export default function AccountScanner() {
             </div>
 
             <p className="text-xs text-gray-500 text-center mt-4">
-              💡 Service fee helps maintain and improve SolFinder
+              💡 Service fee helps maintain and improve SOLcloser
             </p>
 
             <button

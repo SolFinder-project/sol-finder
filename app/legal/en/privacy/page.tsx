@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Introduction</h2>
             <p>
-              SolFinder ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy 
+              SOLcloser ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy 
               explains how we collect, use, and safeguard information when you use our decentralized application, 
               in compliance with:
             </p>
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
               <li>Applicable international data protection laws</li>
             </ul>
             <p className="mt-4">
-              Because SolFinder is a decentralized application built on the Solana blockchain, we collect 
+              Because SOLcloser is a decentralized application built on the Solana blockchain, we collect 
               minimal personal information and operate with transparency and user privacy as core principles.
             </p>
           </section>
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
             
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">3.1 Blockchain Data (Public)</h3>
             <p>
-              When you use SolFinder, we interact with publicly available blockchain data:
+              When you use SOLcloser, we interact with publicly available blockchain data:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Wallet Address:</strong> Your Solana public key</li>
@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">4. How We Use Information</h2>
             <p>We use the collected information exclusively to:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Provide and operate the SolFinder Service</li>
+              <li>Provide and operate the SOLcloser Service</li>
               <li>Process blockchain transactions</li>
               <li>Calculate and distribute referral rewards</li>
               <li>Display global statistics and leaderboards</li>
@@ -234,7 +234,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">11. Children's Privacy</h2>
             <p>
-              SolFinder is not intended for use by individuals under the age of 18. We do not knowingly 
+              SOLcloser is not intended for use by individuals under the age of 18. We do not knowingly 
               collect information from children. If you are a parent or guardian and believe your child 
               has used our Service, please contact us immediately.
             </p>
@@ -243,7 +243,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">12. Cookies and Tracking</h2>
             <p>
-              SolFinder does not use tracking cookies, advertising cookies, or analytics cookies.
+              SOLcloser does not use tracking cookies, advertising cookies, or analytics cookies.
             </p>
             <p className="mt-2">
               We may use strictly necessary cookies for technical functionality (e.g., session management, 
@@ -272,8 +272,8 @@ export default function PrivacyPolicy() {
               <p>
                 <strong>Email:</strong> [TO BE COMPLETED]<br />
                 <strong>Address:</strong> [TO BE COMPLETED]<br />
-                <strong>GitHub:</strong> <a href="https://github.com/SolFinder-project/sol-finder" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
-                  github.com/SolFinder-project/sol-finder
+                <strong>GitHub:</strong> <a href="https://github.com/SOLcloser-project/sol-closer" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
+                  github.com/SOLcloser-project/sol-closer
                 </a>
               </p>
             </div>
@@ -281,7 +281,7 @@ export default function PrivacyPolicy() {
 
           <div className="mt-12 pt-8 border-t border-dark-border">
             <p className="text-sm text-gray-500">
-              By using SolFinder, you acknowledge that you have read and understood this Privacy Policy.
+              By using SOLcloser, you acknowledge that you have read and understood this Privacy Policy.
             </p>
           </div>
         </div>

@@ -195,7 +195,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             Refer & Earn
           </h3>
           <p className="text-gray-400">
-            Get 10% of SOL reclaimed by users you refer to SolFinder
+            Get 10% of SOL reclaimed by users you refer to SOLcloser
           </p>
         </button>
 
@@ -245,11 +245,11 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
         </div>
       </div>
 
-      {/* Why Choose SolFinder */}
+      {/* Why Choose SOLcloser */}
       <div className="mb-16">
         <h2 className="text-4xl font-bold text-center mb-12 font-[family-name:var(--font-orbitron)]">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-neon-green">
-            Why Choose SolFinder
+            Why Choose SOLcloser
           </span>
         </h2>
 
@@ -345,7 +345,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-lg font-bold mb-4 text-neon-purple">About SolFinder</h3>
+              <h3 className="text-lg font-bold mb-4 text-neon-purple">About SOLcloser</h3>
               <p className="text-sm text-gray-400">
                 Reclaim your SOL from unused token accounts on Solana. Fast, secure, and efficient.
               </p>
@@ -403,7 +403,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
               <ul className="space-y-2 text-sm">
                 <li>
                   <a 
-                    href="https://github.com/SolFinder-project/sol-finder" 
+                    href="https://github.com/SOLcloser-project/sol-closer" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-neon-pink transition-colors flex items-center gap-2"
@@ -416,7 +416,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
                 </li>
                 <li>
                   <a 
-                    href="https://twitter.com/SolFinder_app" 
+                    href="https://twitter.com/SOLcloser_app" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-neon-pink transition-colors flex items-center gap-2"
@@ -432,7 +432,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
           </div>
 
           <div className="mt-12 pt-8 border-t border-dark-border text-center text-sm text-gray-500">
-            <p>© {new Date().getFullYear()} SolFinder. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} SOLcloser. All rights reserved.</p>
             <p className="mt-2">Built with 💜 on Solana</p>
           </div>
         </div>

@@ -54,7 +54,7 @@ export default function ClaimSummary({ scanResult, selectedCount }: ClaimSummary
       </div>
 
       <p className="text-xs text-gray-500 mt-6 text-center font-mono">
-        💡 Service fee helps maintain and improve SolFinder
+        💡 Service fee helps maintain and improve SOLcloser
       </p>
     </div>
   );

@@ -1,10 +1,10 @@
 import { TransactionHistory, UserStats, ReferralStats, Achievement } from '@/types/user-stats';
 
 const STORAGE_KEYS = {
-  TRANSACTIONS: 'solfinder_transactions',
-  USER_STATS: 'solfinder_user_stats',
-  REFERRAL_STATS: 'solfinder_referral_stats',
-  ACHIEVEMENTS: 'solfinder_achievements',
+  TRANSACTIONS: 'solcloser_transactions',
+  USER_STATS: 'solcloser_user_stats',
+  REFERRAL_STATS: 'solcloser_referral_stats',
+  ACHIEVEMENTS: 'solcloser_achievements',
 };
 
 export class StorageService {

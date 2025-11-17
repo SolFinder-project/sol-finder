@@ -25,7 +25,7 @@ export default function RiskDisclaimer() {
               ⚠️ AVERTISSEMENT IMPORTANT
             </p>
             <p>
-              L'utilisation de SolFinder et des cryptomonnaies comporte des risques significatifs. 
+              L'utilisation de SOLcloser et des cryptomonnaies comporte des risques significatifs. 
               Veuillez lire attentivement cet avertissement avant d'utiliser le Service.
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function RiskDisclaimer() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Absence de Conseil Financier</h2>
             <p>
-              <strong>SolFinder ne fournit aucun conseil en investissement, conseil financier, 
+              <strong>SOLcloser ne fournit aucun conseil en investissement, conseil financier, 
               conseil juridique ou conseil fiscal.</strong>
             </p>
             <p className="mt-4">
@@ -83,7 +83,7 @@ export default function RiskDisclaimer() {
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">3.2 Perte de Clés Privées</h3>
             <p>
               La perte de vos clés privées ou de votre phrase de récupération entraîne la perte 
-              définitive et irrécupérable de vos fonds. SolFinder n'a jamais accès à vos clés privées 
+              définitive et irrécupérable de vos fonds. SOLcloser n'a jamais accès à vos clés privées 
               et ne peut pas récupérer vos fonds en cas de perte.
             </p>
 
@@ -133,11 +133,11 @@ export default function RiskDisclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. Risques Spécifiques à SolFinder</h2>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. Risques Spécifiques à SOLcloser</h2>
 
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">5.1 Service "Tel Quel"</h3>
             <p>
-              SolFinder est fourni "en l'état" sans garantie d'aucune sorte. Nous ne garantissons pas 
+              SOLcloser est fourni "en l'état" sans garantie d'aucune sorte. Nous ne garantissons pas 
               que le Service sera exempt d'erreurs, de bugs ou de dysfonctionnements.
             </p>
 
@@ -148,7 +148,7 @@ export default function RiskDisclaimer() {
 
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">5.3 Frais de Transaction</h3>
             <p>
-              Outre les frais de service de SolFinder (15%), des frais de réseau Solana s'appliquent 
+              Outre les frais de service de SOLcloser (15%), des frais de réseau Solana s'appliquent 
               à chaque transaction. Ces frais varient selon la congestion du réseau.
             </p>
           </section>
@@ -159,11 +159,11 @@ export default function RiskDisclaimer() {
               Dans les limites autorisées par la loi :
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>SolFinder ne sera pas responsable des pertes financières</li>
-              <li>SolFinder ne sera pas responsable des erreurs de transaction</li>
-              <li>SolFinder ne sera pas responsable des dysfonctionnements du réseau Solana</li>
-              <li>SolFinder ne sera pas responsable des actions de tiers (hackers, etc.)</li>
-              <li>SolFinder ne sera pas responsable des changements réglementaires</li>
+              <li>SOLcloser ne sera pas responsable des pertes financières</li>
+              <li>SOLcloser ne sera pas responsable des erreurs de transaction</li>
+              <li>SOLcloser ne sera pas responsable des dysfonctionnements du réseau Solana</li>
+              <li>SOLcloser ne sera pas responsable des actions de tiers (hackers, etc.)</li>
+              <li>SOLcloser ne sera pas responsable des changements réglementaires</li>
             </ul>
           </section>
 
@@ -192,7 +192,7 @@ export default function RiskDisclaimer() {
                 <li>Avoir lu et compris cet avertissement sur les risques</li>
                 <li>Être conscient des risques inhérents aux cryptomonnaies</li>
                 <li>Accepter l'entière responsabilité de vos décisions</li>
-                <li>Comprendre que SolFinder ne fournit aucun conseil financier</li>
+                <li>Comprendre que SOLcloser ne fournit aucun conseil financier</li>
                 <li>Être seul responsable de la sécurité de votre portefeuille</li>
                 <li>Accepter que les transactions sont irréversibles</li>
                 <li>Vous conformer à toutes les lois et régulations applicables</li>
@@ -208,8 +208,8 @@ export default function RiskDisclaimer() {
             <div className="p-4 bg-dark-card border border-dark-border rounded-lg mt-4">
               <p>
                 <strong>Email :</strong> [À COMPLÉTER]<br />
-                <strong>GitHub :</strong> <a href="https://github.com/SolFinder-project/sol-finder" target="_blank" rel="noopener noreferrer" className="text-neon-pink hover:underline">
-                  github.com/SolFinder-project/sol-finder
+                <strong>GitHub :</strong> <a href="https://github.com/SOLcloser-project/sol-closer" target="_blank" rel="noopener noreferrer" className="text-neon-pink hover:underline">
+                  github.com/SOLcloser-project/sol-closer
                 </a>
               </p>
             </div>

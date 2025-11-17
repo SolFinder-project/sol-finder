@@ -17,7 +17,7 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "SolFinder - Reclaim Your Locked SOL",
+  title: "SOLcloser - Reclaim Your Locked SOL",
   description: "Close unused SPL token accounts and reclaim your rent deposits on Solana",
 };
 

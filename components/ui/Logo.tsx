@@ -162,7 +162,7 @@ export default function Logo({ size = 'md', showText = true }: LogoProps) {
         <div className="flex flex-col">
           <h1 className={`${sizes[size].text} font-bold font-[family-name:var(--font-orbitron)] leading-none drop-shadow-lg`}>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-pink to-neon-cyan animate-glow">
-              SolFinder
+              SOLcloser
             </span>
           </h1>
           <p className={`${sizes[size].tagline} text-gray-400 uppercase tracking-widest font-mono mt-1`}>

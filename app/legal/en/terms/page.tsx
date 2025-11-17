@@ -25,7 +25,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing and using SolFinder ("the Service"), you accept and agree to be bound by the terms 
+              By accessing and using SOLcloser ("the Service"), you accept and agree to be bound by the terms 
               and provisions of this agreement. If you do not agree to these Terms of Service, please do not 
               use the Service.
             </p>
@@ -34,7 +34,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">2. Description of Service</h2>
             <p>
-              SolFinder is a decentralized application (dApp) that allows users to identify and close unused 
+              SOLcloser is a decentralized application (dApp) that allows users to identify and close unused 
               SPL token accounts on the Solana blockchain to reclaim rent deposits (SOL).
             </p>
             <p>The Service provides:</p>
@@ -64,7 +64,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">4.1 Service Fee</h3>
             <p>
-              SolFinder charges a service fee of 15% on all SOL reclaimed through the closing of token accounts. 
+              SOLcloser charges a service fee of 15% on all SOL reclaimed through the closing of token accounts. 
               This fee is automatically deducted during the transaction process.
             </p>
             <p>
@@ -91,7 +91,7 @@ export default function TermsOfService() {
 
             <h3 className="text-xl font-bold text-neon-purple mt-6 mb-3">5.2 No Financial Advice</h3>
             <p>
-              SolFinder does not provide financial, investment, legal, or tax advice. All decisions 
+              SOLcloser does not provide financial, investment, legal, or tax advice. All decisions 
               regarding the use of the Service are your sole responsibility. You should consult with 
               professional advisors before making any financial decisions.
             </p>
@@ -139,7 +139,7 @@ export default function TermsOfService() {
               <li>Maintaining secure backups of your recovery phrase</li>
             </ul>
             <p className="mt-4 p-4 bg-red-500/10 border border-red-500/30 rounded-lg">
-              <strong>Critical:</strong> SolFinder never has access to your private keys and cannot 
+              <strong>Critical:</strong> SOLcloser never has access to your private keys and cannot 
               reverse transactions or recover lost funds.
             </p>
           </section>
@@ -162,7 +162,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">8. Intellectual Property</h2>
             <p>
-              The Service and its original content, features, and functionality are owned by SolFinder 
+              The Service and its original content, features, and functionality are owned by SOLcloser 
               and are protected by international copyright, trademark, and other intellectual property laws.
             </p>
             <p className="mt-4">
@@ -175,7 +175,7 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">9. Tax Obligations</h2>
             <p>
               You are solely responsible for determining what taxes, if any, apply to your use of the Service 
-              and any gains you realize. SolFinder is not responsible for determining, collecting, reporting, 
+              and any gains you realize. SOLcloser is not responsible for determining, collecting, reporting, 
               or remitting taxes arising from your use of the Service.
             </p>
             <p className="mt-4">
@@ -187,7 +187,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">10. Anti-Money Laundering</h2>
             <p>
-              SolFinder is committed to combating money laundering and terrorist financing. We reserve the 
+              SOLcloser is committed to combating money laundering and terrorist financing. We reserve the 
               right to suspend or refuse access to the Service in case of suspected fraudulent or illegal activity.
             </p>
             <p className="mt-4">
@@ -245,8 +245,8 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">15. Entire Agreement</h2>
             <p>
-              These Terms constitute the entire agreement between you and SolFinder regarding the use 
-              of the Service, superseding any prior agreements between you and SolFinder relating to your 
+              These Terms constitute the entire agreement between you and SOLcloser regarding the use 
+              of the Service, superseding any prior agreements between you and SOLcloser relating to your 
               use of the Service.
             </p>
           </section>
@@ -260,8 +260,8 @@ export default function TermsOfService() {
               <p>
                 <strong>Email:</strong> [TO BE COMPLETED]<br />
                 <strong>Address:</strong> [TO BE COMPLETED]<br />
-                <strong>GitHub:</strong> <a href="https://github.com/SolFinder-project/sol-finder" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
-                  https://github.com/SolFinder-project/sol-finder
+                <strong>GitHub:</strong> <a href="https://github.com/SOLcloser-project/sol-closer" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
+                  https://github.com/SOLcloser-project/sol-closer
                 </a>
               </p>
             </div>
@@ -269,7 +269,7 @@ export default function TermsOfService() {
 
           <div className="mt-12 pt-8 border-t border-dark-border">
             <p className="text-sm text-gray-500">
-              By using SolFinder, you acknowledge that you have read, understood, and agree to be bound 
+              By using SOLcloser, you acknowledge that you have read, understood, and agree to be bound 
               by these Terms of Service.
             </p>
           </div>

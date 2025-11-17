@@ -22,17 +22,17 @@ export function useReferral() {
         console.log('🎁 Referral code detected:', refCode);
         
         // Save referrer code to sessionStorage (expires when tab closes)
-        sessionStorage.setItem('solfinder_referrer', refCode);
+        sessionStorage.setItem('solcloser_referrer', refCode);
         setReferrerCode(refCode);
         
         // Get referrer wallet from mapping
-        const mapping = localStorage.getItem('solfinder_referral_mapping');
+        const mapping = localStorage.getItem('solcloser_referral_mapping');
         if (mapping) {
           const map = JSON.parse(mapping);
           const wallet = map[refCode];
           if (wallet) {
             console.log('✅ Referrer wallet found:', wallet);
-            sessionStorage.setItem('solfinder_referrer_wallet', wallet);
+            sessionStorage.setItem('solcloser_referrer_wallet', wallet);
             setReferrerWallet(wallet);
           }
         }
@@ -43,8 +43,8 @@ export function useReferral() {
         window.history.replaceState({}, '', url.toString());
       } else {
         // Check if we have a referrer in current session
-        const savedReferrer = sessionStorage.getItem('solfinder_referrer');
-        const savedWallet = sessionStorage.getItem('solfinder_referrer_wallet');
+        const savedReferrer = sessionStorage.getItem('solcloser_referrer');
+        const savedWallet = sessionStorage.getItem('solcloser_referrer_wallet');
         
         if (savedReferrer) {
           setReferrerCode(savedReferrer);
@@ -64,10 +64,10 @@ export function useReferral() {
       setReferralCode(code);
 
       // Save mapping: code -> wallet (persists in localStorage)
-      const mapping = localStorage.getItem('solfinder_referral_mapping');
+      const mapping = localStorage.getItem('solcloser_referral_mapping');
       const map = mapping ? JSON.parse(mapping) : {};
       map[code] = publicKey.toString();
-      localStorage.setItem('solfinder_referral_mapping', JSON.stringify(map));
+      localStorage.setItem('solcloser_referral_mapping', JSON.stringify(map));
 
       // Load referral stats
       const stats = StorageService.getReferralStats(publicKey.toString());
