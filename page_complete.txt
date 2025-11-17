@@ -23,6 +23,7 @@ export default function Home() {
     avgReclaim: '0',
   });
 
+  // 🔥 NOUVEAU : Charger les vraies stats depuis Supabase
   useEffect(() => {
     async function loadStats() {
       const stats = await getGlobalStats();
@@ -39,6 +40,7 @@ export default function Home() {
     }
     loadStats();
     
+    // Refresh toutes les 10 secondes
     const interval = setInterval(loadStats, 10000);
     return () => clearInterval(interval);
   }, []);
@@ -106,6 +108,7 @@ export default function Home() {
         <section className="container mx-auto px-4 py-12">
           {renderSection()}
         </section>
+
       </div>
     </main>
   );
@@ -146,7 +149,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
         </div>
       </div>
 
-      {/* Global Stats */}
+      {/* Global Stats - VRAIES DONNÉES */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
         <StatsCard
           title="Accounts Closed"
@@ -210,7 +213,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
         </button>
       </div>
 
-      {/* How It Works */}
+      {/* How It Works Section */}
       <div className="mb-16">
         <h2 className="text-4xl font-bold text-center mb-12 font-[family-name:var(--font-orbitron)]">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-pink">
@@ -222,25 +225,25 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
           <div className="card-cyber text-center">
             <div className="text-5xl mb-4">🔌</div>
             <h3 className="text-xl font-bold mb-2 text-neon-purple">1. Connect</h3>
-            <p className="text-sm text-gray-400">Connect your Solana wallet securely</p>
+            <p className="text-sm text-gray-400">Connect your Solana wallet securely via Phantom or Solflare</p>
           </div>
 
           <div className="card-cyber text-center">
             <div className="text-5xl mb-4">🔍</div>
             <h3 className="text-xl font-bold mb-2 text-neon-pink">2. Scan</h3>
-            <p className="text-sm text-gray-400">We scan for empty SPL token accounts</p>
+            <p className="text-sm text-gray-400">We scan your wallet for empty SPL token accounts</p>
           </div>
 
           <div className="card-cyber text-center">
             <div className="text-5xl mb-4">✅</div>
             <h3 className="text-xl font-bold mb-2 text-neon-cyan">3. Select</h3>
-            <p className="text-sm text-gray-400">Choose accounts to close</p>
+            <p className="text-sm text-gray-400">Choose which accounts you want to close and reclaim</p>
           </div>
 
           <div className="card-cyber text-center">
             <div className="text-5xl mb-4">💰</div>
             <h3 className="text-xl font-bold mb-2 text-neon-green">4. Claim</h3>
-            <p className="text-sm text-gray-400">Receive your SOL instantly</p>
+            <p className="text-sm text-gray-400">Approve the transaction and receive your SOL instantly</p>
           </div>
         </div>
       </div>
@@ -258,7 +261,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div className="text-4xl mb-4">🔒</div>
             <h3 className="text-xl font-bold mb-2 text-neon-purple">Secure by Design</h3>
             <p className="text-sm text-gray-400">
-              Your keys never leave your wallet. All transactions are signed by you.
+              Your keys never leave your wallet. All transactions are signed by you, ensuring maximum security.
             </p>
           </div>
 
@@ -266,7 +269,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div className="text-4xl mb-4">⚡</div>
             <h3 className="text-xl font-bold mb-2 text-neon-pink">Lightning Fast</h3>
             <p className="text-sm text-gray-400">
-              Powered by Solana's blazing-fast blockchain.
+              Powered by Solana's blazing-fast blockchain. Close accounts and receive SOL in seconds.
             </p>
           </div>
 
@@ -274,7 +277,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div className="text-4xl mb-4">💎</div>
             <h3 className="text-xl font-bold mb-2 text-neon-cyan">Transparent Fees</h3>
             <p className="text-sm text-gray-400">
-              Simple 15% service fee. No hidden costs.
+              Simple 15% service fee. No hidden costs. You always know exactly what you'll receive.
             </p>
           </div>
 
@@ -282,7 +285,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div className="text-4xl mb-4">🎁</div>
             <h3 className="text-xl font-bold mb-2 text-neon-green">Earn Rewards</h3>
             <p className="text-sm text-gray-400">
-              Refer friends and earn 10% of their reclaimed SOL.
+              Refer friends and earn 10% of their reclaimed SOL. Build passive income effortlessly.
             </p>
           </div>
         </div>
@@ -313,7 +316,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div>
               <h4 className="font-bold text-blue-300 mb-1">Your Keys, Your Control</h4>
               <p className="text-sm text-gray-400">
-                We never have access to your private keys.
+                We never have access to your private keys. All transactions require your explicit approval.
               </p>
             </div>
           </div>
@@ -323,7 +326,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div>
               <h4 className="font-bold text-blue-300 mb-1">Standard Rent Amount</h4>
               <p className="text-sm text-gray-400">
-                Each SPL token account locks ~0.00204 SOL as rent.
+                Each SPL token account locks ~0.00204 SOL as rent. This is a Solana standard, not our fee.
               </p>
             </div>
           </div>
@@ -333,17 +336,17 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             <div>
               <h4 className="font-bold text-blue-300 mb-1">Instant Processing</h4>
               <p className="text-sm text-gray-400">
-                Transactions are processed instantly on the Solana blockchain.
+                Transactions are processed instantly on the Solana blockchain. Your SOL is available immediately.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="py-12 border-t border-dark-border mt-16">
+    </>
+      <footer className="py-12 border-t border-dark-border">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
+            {/* About */}
             <div>
               <h3 className="text-lg font-bold mb-4 text-neon-purple">About SolFinder</h3>
               <p className="text-sm text-gray-400">
@@ -351,17 +354,18 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
               </p>
             </div>
 
+            {/* Legal - French */}
             <div>
               <h3 className="text-lg font-bold mb-4 text-neon-purple">Légal 🇫🇷</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <a href="/legal/fr/terms" className="text-gray-400 hover:text-neon-pink transition-colors">
-                    Conditions Générales
+                    Conditions Générales d'Utilisation
                   </a>
                 </li>
                 <li>
                   <a href="/legal/fr/privacy" className="text-gray-400 hover:text-neon-pink transition-colors">
-                    Confidentialité
+                    Politique de Confidentialité
                   </a>
                 </li>
                 <li>
@@ -371,12 +375,13 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
                 </li>
                 <li>
                   <a href="/legal/fr/risks" className="text-gray-400 hover:text-neon-pink transition-colors">
-                    Avertissements
+                    Avertissement sur les Risques
                   </a>
                 </li>
               </ul>
             </div>
 
+            {/* Legal - English */}
             <div>
               <h3 className="text-lg font-bold mb-4 text-neon-purple">Legal 🇬🇧</h3>
               <ul className="space-y-2 text-sm">
@@ -398,6 +403,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
               </ul>
             </div>
 
+            {/* Community */}
             <div>
               <h3 className="text-lg font-bold mb-4 text-neon-purple">Community</h3>
               <ul className="space-y-2 text-sm">
@@ -431,12 +437,18 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
             </div>
           </div>
 
+          {/* Bottom Footer */}
           <div className="mt-12 pt-8 border-t border-dark-border text-center text-sm text-gray-500">
-            <p>© {new Date().getFullYear()} SolFinder. All rights reserved.</p>
-            <p className="mt-2">Built with 💜 on Solana</p>
+            <p>
+              © {new Date().getFullYear()} SolFinder. All rights reserved.
+            </p>
+            <p className="mt-2">
+              Built on <span className="text-neon-purple">Solana</span> blockchain
+            </p>
           </div>
         </div>
       </footer>
-    </>
   );
 }
+
+      {/* Footer */}
