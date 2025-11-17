@@ -403,7 +403,7 @@ function HomeContent({ setSection, globalStats }: { setSection: (section: Sectio
               <ul className="space-y-2 text-sm">
                 <li>
                   <a 
-                    href="https://github.com/SOLcloser-project/sol-closer" 
+                    href="https://github.com/SolFinder-project/sol-closer" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-neon-pink transition-colors flex items-center gap-2"

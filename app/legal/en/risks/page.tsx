@@ -274,8 +274,8 @@ export default function RiskDisclaimer() {
             <div className="p-4 bg-dark-card border border-dark-border rounded-lg mt-4">
               <p>
                 <strong>Email:</strong> [TO BE COMPLETED]<br />
-                <strong>GitHub:</strong> <a href="https://github.com/SOLcloser-project/sol-closer" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
-                  github.com/SOLcloser-project/sol-closer
+                <strong>GitHub:</strong> <a href="https://github.com/SolFinder-project/sol-closer" className="text-neon-pink hover:underline" target="_blank" rel="noopener noreferrer">
+                  github.com/SolFinder-project/sol-closer
                 </a>
               </p>
             </div>

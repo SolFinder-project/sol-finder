@@ -189,8 +189,8 @@ export default function LegalNotice() {
               <p>
                 <strong>Email :</strong> [À COMPLÉTER]<br />
                 <strong>Adresse :</strong> [À COMPLÉTER]<br />
-                <strong>GitHub :</strong> <a href="https://github.com/SOLcloser-project/sol-closer" target="_blank" rel="noopener noreferrer" className="text-neon-pink hover:underline">
-                  github.com/SOLcloser-project/sol-closer
+                <strong>GitHub :</strong> <a href="https://github.com/SolFinder-project/sol-closer" target="_blank" rel="noopener noreferrer" className="text-neon-pink hover:underline">
+                  github.com/SolFinder-project/sol-closer
                 </a>
               </p>
             </div>
